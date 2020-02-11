@@ -15,6 +15,10 @@ struct ContentView: View {
             List {
                 ForEach(menu) { section in
                     Text(section.name)
+                        .font(.headline)
+                    ForEach(section.items) { item in
+                        Text(item.name).font(.subheadline)
+                    }
                 }
             }
         .navigationBarTitle("Our Menu")
