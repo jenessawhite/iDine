@@ -10,7 +10,9 @@ import SwiftUI
 
 struct ItemRow : View {
     var item: MenuItem
-
+    
+    static var colors: [String: Color] = ["D": .purple, "G": .black, "N": .red, "S": .blue, "V": .green]
+    
     var body: some View {
         HStack {
             Image(item.thumbnailImage)
@@ -23,6 +25,18 @@ struct ItemRow : View {
                 Text(String("$\(item.price)"))
                     .font(.subheadline)
                     .italic()
+            }
+            
+            Spacer()
+            
+            ForEach(item.restrictions, id: \.self) { restriction in
+                Text(restriction)
+                    .font(.caption)
+                    .fontWeight(.black)
+                    .padding(5)
+                    .background(Self.colors[restriction, default: .black])
+                    .clipShape(Circle())
+                    .foregroundColor(.white)
             }
         }
     }
