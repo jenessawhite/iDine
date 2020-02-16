@@ -13,15 +13,29 @@ struct ItemDetail: View {
     
     var body: some View {
         VStack {
-            Image(item.mainImage)
-            Text(item.description).fontWeight(.light)
+            ZStack {
+                Image(item.mainImage)
+                Text("Photo: \(item.photoCredit)")
+                    .padding(5)
+                    .background(Color.black)
+                    .font(.caption)
+                    .foregroundColor(.white)
+            }
+            
+            Text(item.description)
+                .fontWeight(.light)
+                .padding(20.0)
+            Spacer()
+            
         }
-        .navigationBarTitle(item.name)
+        .navigationBarTitle(Text(item.name), displayMode: .inline)
     }
 }
 
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetail(item: MenuItem.example)
+        NavigationView{
+            ItemDetail(item: MenuItem.example)
+        }
     }
 }
