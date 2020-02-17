@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		425AAF8B23F8E2E700673452 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425AAF8A23F8E2E700673452 /* ItemDetail.swift */; };
+		425AAF8D23FA572700673452 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425AAF8C23FA572700673452 /* OrderView.swift */; };
 		429E545023F2580600C2523B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E544F23F2580600C2523B /* AppDelegate.swift */; };
 		429E545223F2580600C2523B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E545123F2580600C2523B /* SceneDelegate.swift */; };
 		429E545423F2580600C2523B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E545323F2580600C2523B /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		425AAF8A23F8E2E700673452 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		425AAF8C23FA572700673452 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		429E544C23F2580600C2523B /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		429E544F23F2580600C2523B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		429E545123F2580600C2523B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				429E547223F2587500C2523B /* Order.swift */,
 				429E545323F2580600C2523B /* ContentView.swift */,
 				425AAF8A23F8E2E700673452 /* ItemDetail.swift */,
+				425AAF8C23FA572700673452 /* OrderView.swift */,
 				42D6E0EB23F3C72B00668A88 /* ItemRow.swift */,
 				429E547723F2589E00C2523B /* menu.json */,
 				429E545523F2580800C2523B /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 				42D6E0EC23F3C72B00668A88 /* ItemRow.swift in Sources */,
 				429E547523F2587500C2523B /* Order.swift in Sources */,
 				425AAF8B23F8E2E700673452 /* ItemDetail.swift in Sources */,
+				425AAF8D23FA572700673452 /* OrderView.swift in Sources */,
 				429E545423F2580600C2523B /* ContentView.swift in Sources */,
 				429E547423F2587500C2523B /* Helper.swift in Sources */,
 			);
