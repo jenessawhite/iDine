@@ -21,6 +21,7 @@
 		429E547623F2587500C2523B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E547323F2587500C2523B /* Menu.swift */; };
 		429E547823F2589E00C2523B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 429E547723F2589E00C2523B /* menu.json */; };
 		42D6E0EC23F3C72B00668A88 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6E0EB23F3C72B00668A88 /* ItemRow.swift */; };
+		42FCD56123FB90C900325053 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FCD56023FB90C900325053 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		429E547323F2587500C2523B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "../../idine 2/Menu.swift"; sourceTree = "<group>"; };
 		429E547723F2589E00C2523B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "../../idine 2/menu.json"; sourceTree = "<group>"; };
 		42D6E0EB23F3C72B00668A88 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		42FCD56023FB90C900325053 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				429E545323F2580600C2523B /* ContentView.swift */,
 				425AAF8A23F8E2E700673452 /* ItemDetail.swift */,
 				425AAF8C23FA572700673452 /* OrderView.swift */,
+				42FCD56023FB90C900325053 /* AppView.swift */,
 				42D6E0EB23F3C72B00668A88 /* ItemRow.swift */,
 				429E547723F2589E00C2523B /* menu.json */,
 				429E545523F2580800C2523B /* Assets.xcassets */,
@@ -238,6 +241,7 @@
 				425AAF8B23F8E2E700673452 /* ItemDetail.swift in Sources */,
 				425AAF8D23FA572700673452 /* OrderView.swift in Sources */,
 				429E545423F2580600C2523B /* ContentView.swift in Sources */,
+				42FCD56123FB90C900325053 /* AppView.swift in Sources */,
 				429E547423F2587500C2523B /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
